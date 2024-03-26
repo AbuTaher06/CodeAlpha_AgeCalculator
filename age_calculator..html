@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <style>
+        .cal{
+            background-color: aqua;
+            color:purple;
+            text-align: center;
+            padding-bottom: 10px;
+            margin:80px;
+            border-radius: 20px;
+        }
+        h1{
+            background-color: chartreuse;
+            color:crimson;
+        }
+        button{
+            margin-top:10px;
+            border-color: blue;
+            
+            border-radius: 30px;
+            color: red;
+            font-size: medium;
+        }
+        button:hover{
+            background-color: yellowgreen;
+        }   
+        .display{
+            text-align: center;
+            color: chocolate;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="cal">
+    <h1>Age Calculator</h1>
+    <p>Enter your date of birth:</p>
+    <input type="number" name="" id="year" placeholder="Year">
+    <input type="number" name="" id="month" placeholder="Month">
+    <input type="number" name="" id="day" placeholder="Day"><br>
+    <button onclick="calculateAge()">Calculate Age</button>
+    <p id="result" class="display"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
